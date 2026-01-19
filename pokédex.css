@@ -15,14 +15,15 @@
   }
   
   #pokedex{
+    margin:auto;
     border:solid 4px red;
     height:680px;
-    width:400px;
+    width:450px;
     border-radius:15px;
   }
   
   h2{
-    width:400px;
+    margin:auto;
     text-align:center;
     font-family:sans-serif;
   }
@@ -46,7 +47,12 @@
   table{
     margin: auto;
   }
-  
+
+  #sprite-container{
+    display: block;
+    text-align: center;
+  }
+
   #types{
     font-size:16px;
     text-align:center;
@@ -65,7 +71,7 @@
   #next{
     background-color:rgba(162, 255, 0, 0.84);
     display:inline;
-    margin-left:80%;
+    margin-left:83%;
     font-size:20px;
   }
   #prev{

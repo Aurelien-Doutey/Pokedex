@@ -4,9 +4,10 @@
   <meta charset="utf-8">
   <title>Pokémon Search App</title>
   <link rel="stylesheet" href="pokédex.css">
+  <link rel="icon" type="image/png" href="Poké_Ball_icon.svg"/>
 </head>
 <body>
-    <h2>Pokémon Search App</h2>
+    <h2>Pokémon Search App</h2><br>
   <div id="pokedex">
     <label>Search for Pokémon by Name or ID</label>
     <input id="search-input" required></input>
@@ -17,14 +18,17 @@
     <span id="weight"></span>
     <span id="height"></span><br>
     
+    <div id="sprite-container">
       <img id="sprite">
       <img id="spriteS">
-
+    </div>
+  
     <div id="types"></div><br>
       <div id="btn">
         <button id="prev"><</button>
         <button id="next">></button>
       </div> 
+
     <table id="stats" hidden>
       <tr>
         <th><b>Base</b><th>
@@ -43,11 +47,11 @@
         <td><span id="defense"></span><td>
       <tr>
       <tr>
-        <th>Attack Special :<th>
+        <th>Special Attack :<th>
         <td><span id="special-attack"></span><td>
       <tr>
       <tr>
-        <th>Defense Special :<th>
+        <th>Special Defense :<th>
         <td><span id="special-defense"></span><td>
       <tr>
       <tr>
@@ -58,7 +62,6 @@
         <th><b>Total :<b><th>
         <td><b><span id="total"><b></span><td>
       <tr>
-
     </table>
   </div>
 </body>
